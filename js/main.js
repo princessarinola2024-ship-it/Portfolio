@@ -75,3 +75,5 @@ revealObserver.unobserve(entry.target); // animate only once
 document.querySelectorAll(".reveal").forEach(function (el) { revealObserver.observe(el); });
 // ---------- 6. Current year in the footer ----------
 document.getElementById("year").textContent = new Date().getFullYear();
+
+
