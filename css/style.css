@@ -28,22 +28,22 @@ Portfolio Starter — style.css
 }
 
 [data-theme="dark"] {
---accent: #8bb4ff;
---accent-2: #f2a7d8;
---accent-3: #b9a0ff;
+--accent: #818cf8;
+--accent-2: #f472b6;
+--accent-3: #22d3ee;
 --bg: #0b1020;
---bg-alt: #141b32;
---surface: #1b2340;
---text: #f0eeff;
---muted: #a5a8c7;
---border: #303b60;
+--bg-alt: #111833;
+--surface: #151c34;
+--text: #e2e8f0;
+--muted: #94a3b8;
+--border: #263154;
 --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
---nav-bg: rgba(11, 16, 32, 0.88);
---chip-bg: #292747;
---chip-text: #d2c6ff;
---bot-bubble: #242440;
---glow-1: rgba(139, 180, 255, 0.25);
---glow-2: rgba(242, 167, 216, 0.18);
+--nav-bg: rgba(11, 16, 32, 0.75);
+--chip-bg: #1e2748;
+--chip-text: #c7d2fe;
+--bot-bubble: #1e2748;
+--glow-1: rgba(129, 140, 248, 0.32);
+--glow-2: rgba(244, 114, 182, 0.20);
 }
 
 /* ---------- 2. Base ---------- */
