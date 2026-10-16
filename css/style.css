@@ -5,27 +5,47 @@ Portfolio Starter — style.css
 ========================================================= */
 /* ---------- 1. Theme variables ---------- */
 :root {
---accent: #648ff5; /* main color (soft blue) */
---accent-2: #F3A5CE; /* second color for gradients (baby pink) */
---accent-3: #8BC9F5; /* third color (sky blue) */
+--accent: #7ec8ff; /* main color (soft blue) */
+--accent-2: #ff8ec7; /* second color for gradients (baby pink) */
+--accent-3: #a78bfa; /* third color (sky blue) */
 --gradient: linear-gradient(135deg, var(--accent), var(--accent-2));
---bg: #f7faff;
---bg-alt: #eef4ff;
+--bg: #ff8fbf;
+--bg-alt: #e6f4ff;
 --surface: #ffffff;
---text: #263858;
---muted: #718096;
---border: #dce5f5;
---shadow: 0 10px 30px rgba(38, 56, 88, 0.08);
---nav-bg: rgba(248, 250, 255, 0.8);
+--text: #2a2a4a;
+--muted: #6b7c93;
+--border: #d8e6ff;
+--shadow: 0 10px 30px rgba(126, 200, 255, 0.025);
+--nav-bg: rgba(255, 255, 255, 0.85);
 --chip-bg: #e7efff;
---chip-text: #4169b2;
---bot-bubble: #fce7f3;
---glow-1: rgba(100, 143, 245, 0.30);
---glow-2: rgba(243, 165, 206, 0.20);
+--chip-text: #5b4b8a;
+--bot-bubble: #ffd1e8;
+--glow-1: rgba(126, 200, 255, 0.35);
+--glow-2: rgba(255, 142, 199, 0.25);
 --radius: 16px;
---font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+--font: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
 --max: 1100px;
 }
+
+[data-theme="dark"] {
+--accent: #818cf8;
+--accent-2: #f472b6;
+--accent-3: #22d3ee;
+--bg: #0b1020;
+--bg-alt: #171a2e;
+--surface: #242846;
+--text: #f3e8ff;
+--muted: #c9d1f0;
+--border: #3a3f6b;
+--shadow: 0 10px 30px rgba(255, 179, 222, 0.25);
+--nav-bg: rgba(15, 16, 32, 0.85);
+--chip-bg: #3a3f6b;
+--chip-text: #e5d8ff;
+--bot-bubble: #4a2e5c;
+--glow-1: rgba(255, 179, 248, 0.32);
+--glow-2: rgba(244, 114, 182, 0.20);
+}
+
 /* ---------- 2. Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -229,11 +249,11 @@ background: var(--gradient); box-shadow: 0 20px 50px rgba(99, 102, 241, 0.35);
 .contact-card .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, 0.6); }
 .contact-card .btn-ghost:hover { color: #fff; border-color: #fff; }
 
-
-
-/* footer *
-
-.footer { border-top: 1px solid var(--border); padding: 1.5rem 0 5.5rem; color: var(--muted); font-size:
+/* footer */
+footer { border-top: 1px solid var(--border); padding: 1.5rem 0 5.5rem; color: var(--muted); font-size:
 0.9rem; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; }
 .footer p { margin: 0; }
+
+
+
