@@ -9,8 +9,8 @@ Portfolio Starter — style.css
 --accent-2: #f2a7d8; /* second color for gradients (baby pink) */
 --accent-3: #b9a0ff; /* third color (sky blue) */
 --gradient: linear-gradient(135deg, var(--accent), var(--accent-2));
---bg: #0b1020;
---bg-alt: #141b32;
+--bg: #306d76;
+--bg-alt: #1b2f51;
 --surface: #1b2340;
 --text: #f0eeff;
 --muted: #a5a8c7;
@@ -27,28 +27,29 @@ Portfolio Starter — style.css
 --max: 1100px;
 }
 
+
+
+/* ---------- 2. Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
 [data-theme="dark"] {
---accent: #818cf8;
---accent-2: #f472b6;
+--accent: #212ea7;
+--accent-2: #9e0b57;
 --accent-3: #22d3ee;
---bg: #0b1020;
---bg-alt: #111833;
+--bg: #030613;
+--bg-alt: #130c58;
 --surface: #151c34;
 --text: #e2e8f0;
 --muted: #94a3b8;
 --border: #263154;
 --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 --nav-bg: rgba(11, 16, 32, 0.75);
---chip-bg: #1e2748;
+--chip-bg: #1740d4;
 --chip-text: #c7d2fe;
 --bot-bubble: #1e2748;
 --glow-1: rgba(129, 140, 248, 0.32);
 --glow-2: rgba(244, 114, 182, 0.20);
 }
-
-/* ---------- 2. Base ---------- */
-*, *::before, *::after { box-sizing: border-box; }
-
 
 
 

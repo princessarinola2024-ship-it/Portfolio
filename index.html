@@ -18,6 +18,16 @@ document.documentElement.dataset.theme = saved || (prefersDark ? "dark" : "light
 </script>
 
 <!-- Google Font: Plus Jakarta Sans -->
+
+<!-- Set the theme BEFORE the page draws, so there's no white flash in dark mode -->
+<script>
+(function () {
+var saved = localStorage.getItem("theme");
+var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+document.documentElement.dataset.theme = saved || (prefersDark ? "dark" : "light");
+})();
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=sw
