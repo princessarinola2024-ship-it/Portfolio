@@ -50,7 +50,10 @@ answer: profile.ojt
 },
 contact: {
 keywords: ["contact", "email", "reach", "github", "message", "hire"],
-answer: `You can email ${profile.contact.email} or check GitHub: ${profile.contact.github}`},
+answer: `You can email ${profile.contact.email} or check GitHub: ${profile.contact.github}`
+
+
+},
 thanks: {
 keywords: ["thank", "thanks", "salamat", "ty"],
 answer: "You're welcome! 😊 Anything else you'd like to know?"
@@ -103,7 +106,6 @@ return data.reply;
 }
 
 
-
 // ---------- 5. Chat UI ----------
 const launcher = document.getElementById("chat-launcher");
 const panel = document.getElementById("chat-panel");
@@ -127,14 +129,12 @@ const li = document.createElement("li");
 li.className = "message bot typing";
 li.setAttribute("aria-label", "Typing");
 
-}
-
 
 li.innerHTML = "<span></span><span></span><span></span>";
 messages.appendChild(li);
 messages.scrollTop = messages.scrollHeight;
 return li;
-
+}
 function setMode(text) { modeLabel.textContent = text; }
 function openChat() {
 panel.hidden = false;

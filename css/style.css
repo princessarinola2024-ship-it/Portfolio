@@ -9,7 +9,7 @@ Portfolio Starter — style.css
 --accent-2: #f2a7d8; /* second color for gradients (baby pink) */
 --accent-3: #b9a0ff; /* third color (sky blue) */
 --gradient: linear-gradient(135deg, var(--accent), var(--accent-2));
---bg: #035763;
+--bg: #306d76;
 --bg-alt: #1b2f51;
 --surface: #1b2340;
 --text: #f0eeff;

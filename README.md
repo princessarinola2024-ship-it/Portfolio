@@ -32,7 +32,7 @@ footer
 - [ ] `data/profile.js`: every value (name, education, skills, projects, hobbies, goals, contact)
 - [ ] `css/style.css`: try new `--accent`, `--accent-2` colors (light **and** dark)
 - [ ] `js/chatbot.js`: add more keywords to `qa` (English + Taglish)
-- [ ] Logo initials ("PA") and the chat title ("Princess Assistant")
+- [ ] Logo initials ("JD") and the chat title ("Juan's Assistant")
 - [ ] ⚠️ No home address, phone number, birthday, school ID, or private photos. Everything here is public.
 ## 3. Deploy to Vercel (free Hobby plan)
 1. Push this folder to a GitHub repo named `portfolio`.
@@ -57,7 +57,4 @@ it can be revoked.
 HTML, CSS (variables, Grid, Flexbox, media queries), JavaScript (ES modules, DOM, fetch), Vercel,
 OpenRouter (optional)
 ## Author
-Princess Jezel G. Ariñola (example). ✏️ Replace with your name. Grade 12 Work Immersion Intern, 2026
-
-
-
+Juan Dela Cruz (example). ✏️ Replace with your name. Grade 12 Work Immersion Intern, 2026
