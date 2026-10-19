@@ -47,7 +47,7 @@ hobbies: ["cooking", "Learning new technologies", "listening to music", "watchin
 goals: "I want to take up Computer Science in college and become a full-stack developer.",
 ojt: "Work immersion intern (developer) with a software & AI dev team, Oct 12–30, 2026.",
 contact: {
-email: "princessarinola@gmail.com", // use a school/public email only
+email: "princessarinola2024@gmail.com", // use a school/public email only
 github: "https://github.com/princessarinola2024-ship-it/Portfolio.git"
 }
 };

@@ -359,4 +359,23 @@ box-shadow: var(--shadow); display: none;
 }
 
 
+.logo-badge {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
 
+
+.avatar-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 4px solid var(--surface);
+  display: block;
+}
