@@ -43,7 +43,7 @@ description: "Small exercises on variables, objects, functions, and DOM events."
 tech: ["JavaScript"]
 }
 ],
-hobbies: ["drawing", "mobile games", "playing basketball"],
+hobbies: ["cooking", "Learning new technologies", "listening to music", "watching movies"],
 goals: "I want to take up Computer Science in college and become a full-stack developer.",
 ojt: "Work immersion intern (developer) with a software & AI dev team, Oct 12–30, 2026.",
 contact: {
@@ -52,3 +52,5 @@ github: "https://github.com/princessarinola2024-ship-it/Portfolio.git"
 }
 };
 export default profile;
+
+
